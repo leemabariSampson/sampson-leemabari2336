@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.firstdiv{
+background-color: black;
+color: white;
+text-align: center;
+padding: 15px;
+font-size: 15px;
+border-radius: 30px;
+}
+
+.My-Nav{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.Nav-link{
+    display: flex;
+}
+
+.Nav-link ul{
+display: flex;
+list-style: none;
+}
+
+li{
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .Contactus{
+   margin: 20em;
+}
+
+form{
+    margin: 5em;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 33em;
+    height: 25em;
+} */
+
+/* input{
+    width: 23em;
+    padding: 10px;
+    margin: 20px;
+} */
+
+.Visit-us{
+text-align: center;
+margin: 40px;
+padding: 120px;
+line-height: 2;
+}
+
+.Visit-us h1{
+    color: rgb(255, 0, 85);
+    padding-bottom: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.firstdiv{
+background-color: black;
+color: white;
+text-align: center;
+padding: 15px;
+font-size: 15px;
+border-radius: 30px;
+}
+
+.My-Nav{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.Nav-link{
+    display: flex;
+}
+
+.Nav-link ul{
+display: flex;
+list-style: none;
+}
+
+li{
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.shop{
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 50px;
+    padding: 150px;
+}
+
+.shop p{
+    padding: 30px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.our-best-selling{
+    text-align: center;
+    margin-top: 3em;;
+}
+
+.Best-Selling{
+    /* display: flex;
+    flex-wrap: wrap;
+    margin: 2em 2em 10em 2em; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.best{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 10px;
+}
+
+.best img{
+    border-radius: 10px;
+}
+
+.about {
+    padding: 40px;
+    background-color: lavender;
+    border-radius: 10px;
+}
+
+.cover{
+background-color: antiquewhite;
+/* height: 25em; */
+display: flex;
+flex-wrap: wrap;
+/* padding: 5em; */
+}
+
+.cover img{
+    height: 25em;
+    width: 35em;
+    margin: 10px;
+}
+
+.cover .cover1, .cover2{
+    width: 50%;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
